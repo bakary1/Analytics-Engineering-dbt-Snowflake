@@ -15,7 +15,7 @@ This project simulates an end-to-end analytics engineering workflow using Airbnb
 **Project Implementation**
 * **Data Ingestion:** Load raw Airbnb data from an Amazon S3 bucket into Snowflake
 * **Transformation:** Model and transform data with dbt 
-* **Visualization:** Create a simple dashboard using Preset 
+* **Visualization:** Create a simple dashboard using Apache Superset
 * **Orchestration:** Manage the workflow with Dagster
 
 ## Data Model
