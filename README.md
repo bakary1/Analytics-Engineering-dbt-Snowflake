@@ -9,7 +9,7 @@ This project simulates an end-to-end analytics engineering workflow using Airbnb
 * **Visualization:** Create a simple dashboard using Preset 
 * **Orchestration:** Manage the entire workflow with Dagster
 
-## Input Schema
+## Data Model
 
 ## Lineage Graph
 
