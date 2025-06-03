@@ -16,7 +16,7 @@ This project simulates an end-to-end analytics engineering workflow using Airbnb
 
 ## Lineage Graph
 <p align="left">
- <img src="assets/dbt_linage_graph.png" alt="dbt_linage_graph"/>
+ <img src="assets/dbt_lineage_graph.png" alt="dbt_lineage_graph"/>
 </p>
 ## Dagster DAG
 
