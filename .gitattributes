@@ -1,7 +1,7 @@
-# Force GitHub to recognize SQL as primary language
+# Primary language detection
 *.sql linguist-language=SQL
 
-# Optional: Hide other languages from detection
+# Exclude non-primary languages
 *.py linguist-documentation=false
 *.yml linguist-documentation=false
-*.md linguist-documentation=true  # Keep documentation visible
+*.md linguist-documentation=true
