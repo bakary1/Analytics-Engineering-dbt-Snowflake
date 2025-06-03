@@ -13,7 +13,7 @@
 This project simulates an end-to-end analytics engineering workflow using Airbnb data that focuses on listings, reviews, and hosts. Tools include dbt, Snowflake, Dagster, and Preset.
 
 * **Data Ingestion:** Load raw Airbnb data from an Amazon S3 bucket into Snowflake
-* **Transformation:** Model and transform data using dbt 
+* **Transformation:** Model and transform data with dbt 
 * **Visualization:** Create a simple dashboard using Preset 
 * **Orchestration:** Manage the workflow with Dagster
 
