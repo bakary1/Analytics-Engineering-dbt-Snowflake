@@ -1,0 +1,17 @@
+version: 2
+
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://119e93a7.us1a.app.preset.io/superset/dashboard/8/?native_filters_key=d_3yin1k8lc3__sIksgW08_I3p0Ll74dN3YGDFGOZU65NGrDFK7ZS7rS8RXHSbNf
+    description: Executive Dashboard about Airbnb listings and hosts
+      
+
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: Bakary Bah
