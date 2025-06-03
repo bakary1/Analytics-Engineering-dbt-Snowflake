@@ -6,6 +6,8 @@
   <img src="assets/snowflake-logo.png" alt="Snowflake Data Warehouse" width="30%" />
   <img src="assets/dbt-logo.png" alt="dbt - Data Build Tool" width="30%" />
   <img src="assets/dagster_plus-primary-horizontal.png" alt="Dagster - Data Orchestration Platform" width="30%" />
+  <img src="assets/Superset-Logo-952x420.png" alt="Superset - BI Tool" width="30%" />
+  Superset-Logo-952x420.png
 </div>
 
 ## Project Overview
