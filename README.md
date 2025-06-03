@@ -1,6 +1,6 @@
 # Analytics Engineering with Airbnb Data
 
-## Tech Stack
+## Tools
 
 <div style="display: flex; justify-content: space-evenly;">
   <img src="assets/snowflake-logo.png" alt="Snowflake Data Warehouse" width="30%" />
