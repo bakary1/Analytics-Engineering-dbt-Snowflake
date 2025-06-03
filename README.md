@@ -5,6 +5,7 @@
 <div style="display: flex; justify-content: space-evenly;">
   <img src="assets/snowflake-logo.png" alt="Snowflake Data Warehouse" width="30%" />
   <img src="assets/dbt-logo.png" alt="dbt - Data Build Tool" width="30%" />
+  <img src="assets/dagster_plus-primary-horizontal.png" alt="Dagster - Data Orchestration Platform" width="30%" />
 </div>
 
 ## Project Overview
