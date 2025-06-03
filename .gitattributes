@@ -1,7 +1,6 @@
-# Primary language detection
+# Force SQL as the primary language
 *.sql linguist-language=SQL
-
-# Exclude non-primary languages
-*.py linguist-documentation=false
-*.yml linguist-documentation=false
+# Explicitly ignore other languages
+*.py linguist-vendored
+*.yml linguist-vendored
 *.md linguist-documentation=true
