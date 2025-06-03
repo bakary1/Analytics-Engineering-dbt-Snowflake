@@ -23,4 +23,8 @@ This project simulates an end-to-end analytics engineering workflow using Airbnb
 <p align="left">
  <img src="assets/dagster_dag.png" alt="dagster_dag"/>
 </p>
+
 ## Dashboard
+<p align="left">
+ <img src="assets/exec_dashboard.png" alt="exec_dashboard"/>
+</p>
