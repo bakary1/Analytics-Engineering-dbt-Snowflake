@@ -14,10 +14,13 @@ This project simulates an end-to-end analytics engineering workflow using Airbnb
  <img src="assets/input_schema.png" alt="input_schema"/>
 </p>
 
-## Lineage Graph
+## dbt DAG
 <p align="left">
  <img src="assets/dbt_lineage_graph.png" alt="dbt_lineage_graph"/>
 </p>
-## Dagster DAG
 
+## Dagster DAG
+<p align="left">
+ <img src="assets/dagster_dag.png" alt="dagster_dag"/>
+</p>
 ## Dashboard
