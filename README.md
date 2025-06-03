@@ -1,15 +1,39 @@
-Welcome to your new dbt project!
+# Analytics Engineering with Airbnb Data
 
-### Using the starter project
+## Tools
 
-Try running the following commands:
-- dbt run
-- dbt test
+<div style="display: flex; justify-content: space-evenly;">
+  <img src="assets/snowflake-logo.png" alt="Snowflake Data Warehouse" width="30%" />
+  <img src="assets/dbt-logo.png" alt="dbt - Data Build Tool" width="30%" />
+  <img src="assets/dagster_plus-primary-horizontal.png" alt="Dagster - Data Orchestration Platform" width="30%" />
+</div>
 
+## Project Overview
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This project simulates an end-to-end analytics engineering workflow using Airbnb data for Berlin, focusing on listings, reviews, and hosts. Tooling include dbt, Snowflake, Dagster, and Preset for visualizations.
+
+**Project Implementation**
+* **Data Ingestion:** Load raw Airbnb data from an Amazon S3 bucket into Snowflake
+* **Transformation:** Model and transform data with dbt 
+* **Visualization:** Create a simple dashboard using Apache Superset
+* **Orchestration:** Manage the workflow with Dagster
+
+## Data Model
+<p align="left">
+ <img src="assets/input_schema.png" alt="input_schema"/>
+</p>
+
+## dbt DAG
+<p align="left">
+ <img src="assets/dbt_lineage_graph.png" alt="dbt_lineage_graph"/>
+</p>
+
+## Dagster DAG
+<p align="left">
+ <img src="assets/dagster_dag.png" alt="dagster_dag"/>
+</p>
+
+## Dashboard
+<p align="left">
+ <img src="assets/exec_dashboard.png" alt="exec_dashboard"/>
+</p>
