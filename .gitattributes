@@ -1,6 +1,2 @@
-# Force SQL as the primary language
-*.sql linguist-language=SQL
-# Explicitly ignore other languages
-*.py linguist-vendored
-*.yml linguist-vendored
-*.md linguist-documentation=true
+*.sql linguist-detectable=true
+*.sql linguist-language=sql
